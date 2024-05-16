@@ -35,7 +35,7 @@ const Filter = () => {
                 </div>
                 <div className='filter-group'>
                     <label>
-                        <input type="checkbox" checked={onlyFavoriteFilter} onClick={handleOnlyFavoriteFilterChange} />
+                        <input type="checkbox" checked={onlyFavoriteFilter} onChange={handleOnlyFavoriteFilterChange} />
                         Only Favorite
                     </label>
                 </div>
